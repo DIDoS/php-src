@@ -210,7 +210,7 @@ See also: https://wiki.php.net/rfc/deprecations_php_7_2
     $extra_headers = [
       'Header-Name' => 'Header value',
       'Multiple' => ['One header', 'Another header'],
-      'Multiline' = "FirstLine\r\n SecondLine",
+      'Multiline' => "FirstLine\r\n SecondLine",
     ];
   . count() now raises a warning when an invalid parameter is passed.
     Only arrays and objects implementing the Countable interface should be passed.
